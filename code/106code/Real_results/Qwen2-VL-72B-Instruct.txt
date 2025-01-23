@@ -1,0 +1,110 @@
+Age;cut;(c) 19;cut;(c) 19
+Age;cut;(b) 38;cut;(b) 38
+Age;cut;(b) 60;cut;(b) 60
+Age;cut;(a) 74;cut;(c) 51
+Age;cut;(a) 61;cut;(a) 61
+Age;cut;(c) 24;cut;(c) 24
+Age;cut;(b) 39;cut;(b) 39
+Age;cut;(a) 30;cut;(a) 30
+Age;cut;(a) 1;cut;(a) 1
+Age;cut;(c) 18;cut;(c) 18
+Age;cut;(c) 13;cut;(c) 13
+Age;cut;(a) 18;cut;(a) 18
+Age;cut;(c) 27;cut;(c) 27
+Age;cut;(c) 44;cut;(c) 44
+Age;cut;(c) 5;cut;(c) 5
+Age;cut;(a) 42;cut;(a) 42
+Age;cut;(a) 10;cut;(a) 10
+Age;cut;(a) 6;cut;(a) 6
+Age;cut;(a) 29;cut;(a) 29
+Age;cut;(b) 43;cut;(c) 24
+Age;cut;(c) 39;cut;(c) 39
+Age;cut;(a) 26;cut;(a) 26
+Age;cut;(c) 37;cut;(c) 37
+Age;cut;(b) 5;cut;(b) 5
+Age;cut;(b) 3;cut;(b) 3
+Age;cut;(d) 29.;cut;(b) 17
+Age;cut;(b) 39;cut;(b) 39
+Age;cut;(c) 18;cut;(c) 18
+Age;cut;(a) 20;cut;(a) 20
+Age;cut;(a) 44;cut;(a) 44
+Age;cut;(b) 4;cut;(b) 4
+Age;cut;(c) 25;cut;(c) 25
+Age;cut;(c) 10;cut;(c) 10
+Age;cut;(a) 12;cut;(a) 12
+Age;cut;(c) 7;cut;(c) 7
+Age;cut;(a) 34;cut;(b) 19
+Age;cut;(b) 9;cut;(b) 9
+Age;cut;(c) 8;cut;(c) 8
+Age;cut;(c) 19;cut;(c) 19
+Age;cut;(c) 36;cut;(a) 21
+Age;cut;(b) 50;cut;(b) 50
+Age;cut;(a) 54;cut;(a) 54
+Age;cut;(c) 5;cut;(c) 5
+Age;cut;(d) 46;cut;(b) 15
+Age;cut;(a) 12;cut;(a) 12
+Age;cut;(a) 53;cut;(b) 40
+Age;cut;(d) 61.;cut;(c) 43
+Age;cut;(b) 12;cut;(b) 12
+Age;cut;(b) 20;cut;(b) 20
+Age;cut;(c) 16;cut;(c) 16
+Age;cut;(c) 33;cut;(c) 33
+Age;cut;(a) 56;cut;(c) 45
+Age;cut;(b) 6;cut;(b) 6
+Age;cut;(b) 2;cut;(b) 2
+Age;cut;(c) 2;cut;(c) 2
+Age;cut;(b) 20;cut;(b) 20
+Age;cut;(c) 2;cut;(c) 2
+Age;cut;(a) 11;cut;(a) 11
+Age;cut;(a) 16;cut;(a) 16
+Age;cut;(b) 8;cut;(b) 8
+Age;cut;(c) 10;cut;(c) 10
+Age;cut;(c) 3;cut;(c) 3
+Age;cut;(c) 7;cut;(c) 7
+Age;cut;(c) 15;cut;(c) 15
+Age;cut;(a) 18;cut;(a) 18
+Age;cut;(a) 54;cut;(a) 54
+Age;cut;(b) 9;cut;(b) 9
+Age;cut;(b) 13;cut;(b) 13
+Age;cut;(a) 9;cut;(a) 9
+Age;cut;(b) 21;cut;(b) 21
+Age;cut;(a) 41;cut;(a) 41
+Age;cut;(b) 17;cut;(b) 17
+Age;cut;(c) 4;cut;(c) 4
+Age;cut;(b) 10;cut;(b) 10
+Age;cut;(b) 5;cut;(b) 5
+Age;cut;(b) 6;cut;(b) 6
+Age;cut;(a) 7;cut;(a) 7
+Age;cut;(a) 23;cut;(a) 23
+Age;cut;(c) 31;cut;(c) 31
+Age;cut;(d) 29;cut;(a) 18
+Age;cut;(a) 30;cut;(a) 30
+Age;cut;(b) 14;cut;(b) 14
+Age;cut;(b) 11;cut;(b) 11
+Age;cut;(d) 61;cut;(b) 44
+Age;cut;(a) 24;cut;(a) 24
+Age;cut;(b) 48;cut;(b) 48
+Age;cut;(b) 6;cut;(b) 6
+Age;cut;(b) 16;cut;(b) 16
+Age;cut;(c) 10;cut;(c) 10
+Age;cut;(a) 7;cut;(a) 7
+Age;cut;(b) 18;cut;(b) 18
+Age;cut;(c) 16;cut;(c) 16
+Age;cut;(a) 13;cut;(a) 13
+Age;cut;(c) 27;cut;(a) 13
+Age;cut;(d) 70.;cut;(b) 28
+Age;cut;(c) 27;cut;(c) 27
+Age;cut;(c) 20;cut;(c) 20
+Age;cut;(a) 12;cut;(a) 12
+Age;cut;(c) 14;cut;(c) 14
+Age;cut;(a) 5;cut;(a) 5
+Clock;cut;(a) 1 hours and 52 minutes;cut;(b) 5 hours and 31 minutes
+Clock;cut;(a) 4 hours and 49 minutes;cut;(a) 4 hours and 49 minutes
+Clock;cut;(a) 0 hours and 55 minutes;cut;(c) 8 hours and 10 minutes
+Clock;cut;(a) 6 hours and 27 minutes;cut;(a) 6 hours and 27 minutes
+Clock;cut;(a) 7 hours and 05 minutes;cut;(a) 7 hours and 05 minutes
+Clock;cut;(a) 8 hours and 09 minutes;cut;(b) 3 hours and 00 minutes
+Clock;cut;(c) 12 hours and 00 minutes;cut;(c) 12 hours and 00 minutes
+Clock;cut;The time the clock in the figure is pointing to is approximately 10 hours and 16 minutes. Therefore, the correct answer is (b) 10 hours and 16 minutes.;cut;(a) 12 hours and 48 minutes
+Clock;cut;The time on the watch in the figure is approximately 1 hour and 16 minutes. Therefore, the correct answer is:;space;;space;(b) 1 hours and 16 minutes;cut;(b) 1 hours and 16 minutes
+Clock;cut;(a) 8 hours and 28 minutes;cut;(b) 11 hours and 03 minutes

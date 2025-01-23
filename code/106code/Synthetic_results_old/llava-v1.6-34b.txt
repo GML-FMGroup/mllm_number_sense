@@ -1,0 +1,600 @@
+Angle;cut;(b) 16 degrees;cut;(a) 33 degrees
+Angle;cut;a;cut;(a) 83 degrees
+Angle;cut;c;cut;(d) 85 degrees
+Angle;cut;a;cut;(c) 81 degrees
+Angle;cut;c;cut;(c) 17 degrees
+Angle;cut;d;cut;(d) 16 degrees
+Angle;cut;c;cut;(c) 73 degrees
+Angle;cut;a;cut;(a) 42 degrees
+Angle;cut;a;cut;(a) 27 degrees
+Angle;cut;b;cut;(c) 27 degrees
+Angle;cut;d;cut;(c) 51 degrees
+Angle;cut;d;cut;(d) 28 degrees
+Angle;cut;b;cut;(b) 121 degrees
+Angle;cut;b;cut;(a) 17 degrees
+Angle;cut;a;cut;(b) 116 degrees
+Angle;cut;a;cut;(a) 81 degrees
+Angle;cut;a;cut;(a) 84 degrees
+Angle;cut;(b) 42 degrees;cut;(a) 19 degrees
+Angle;cut;c;cut;(c) 59 degrees
+Angle;cut;a;cut;(a) 76 degrees
+Angle;cut;d;cut;(d) 47 degrees
+Angle;cut;a;cut;(b) 96 degrees
+Angle;cut;a;cut;(c) 15 degrees
+Angle;cut;(a) 90 degrees;cut;(d) 56 degrees
+Angle;cut;c;cut;(d) 78 degrees
+Angle;cut;d;cut;(d) 48 degrees
+Angle;cut;a;cut;(b) 15 degrees
+Angle;cut;b;cut;(c) 23 degrees
+Angle;cut;c;cut;(c) 33 degrees
+Angle;cut;d;cut;(b) 85 degrees
+Angle;cut;a;cut;(d) 23 degrees
+Angle;cut;b;cut;(a) 34 degrees
+Angle;cut;b;cut;(c) 100 degrees
+Angle;cut;b;cut;(b) 102 degrees
+Angle;cut;b;cut;(d) 68 degrees
+Angle;cut;a;cut;(a) 63 degrees
+Angle;cut;c;cut;(a) 65 degrees
+Angle;cut;c;cut;(c) 16 degrees
+Angle;cut;a;cut;(b) 88 degrees
+Angle;cut;a;cut;(b) 161 degrees
+Angle;cut;c;cut;(c) 23 degrees
+Angle;cut;b;cut;(d) 15 degrees
+Angle;cut;a;cut;(a) 43 degrees
+Angle;cut;b;cut;(b) 21 degrees
+Angle;cut;a;cut;(b) 101 degrees
+Angle;cut;a;cut;(a) 39 degrees
+Angle;cut;(b) 44 degrees;cut;(c) 103 degrees
+Angle;cut;b;cut;(a) 35 degrees
+Angle;cut;b;cut;(d) 67 degrees
+Angle;cut;(a) 65 degrees;cut;(b) 20 degrees
+Angle;cut;b;cut;(e) 10 degrees
+Angle;cut;(c) 135 degrees;cut;(b) 45 degrees
+Angle;cut;a;cut;(a) 135 degrees
+Angle;cut;(b) 45 degrees;cut;(a) 90 degrees
+Angle;cut;a;cut;(c) 180 degrees
+Angle;cut;a;cut;(d) 10 degrees
+Angle;cut;e;cut;(c) 180 degrees
+Angle;cut;a;cut;(a) 135 degrees
+Angle;cut;c;cut;(a) 90 degrees
+Angle;cut;a;cut;(b) 180 degrees
+Angle;cut;e;cut;(e) 90 degrees
+Angle;cut;a;cut;(b) 90 degrees
+Angle;cut;a;cut;(d) 45 degrees
+Angle;cut;a;cut;(e) 135 degrees
+Angle;cut;a;cut;(a) 90 degrees
+Angle;cut;c;cut;(d) 180 degrees
+Angle;cut;a;cut;(d) 45 degrees
+Angle;cut;c;cut;(d) 90 degrees
+Angle;cut;(b) 45 degrees;cut;(a) 135 degrees
+Angle;cut;e;cut;(c) 90 degrees
+Angle;cut;b;cut;(d) 45 degrees
+Angle;cut;c;cut;(d) 45 degrees
+Angle;cut;b;cut;(b) 135 degrees
+Angle;cut;a;cut;(a) 45 degrees
+Angle;cut;a;cut;(a) 135 degrees
+Angle;cut;a;cut;(a) 135 degrees
+Angle;cut;b;cut;(b) 45 degrees
+Angle;cut;e;cut;(d) 10 degrees
+Angle;cut;e;cut;(b) 10 degrees
+Angle;cut;e;cut;(a) 10 degrees
+Angle;cut;d;cut;(e) 90 degrees
+Angle;cut;(b) 45 degrees;cut;(d) 180 degrees
+Angle;cut;b;cut;(b) 135 degrees
+Angle;cut;e;cut;(a) 180 degrees
+Angle;cut;b;cut;(c) 10 degrees
+Angle;cut;a;cut;(c) 90 degrees
+Angle;cut;b;cut;(b) 135 degrees
+Angle;cut;a;cut;(d) 180 degrees
+Angle;cut;a;cut;(a) 135 degrees
+Angle;cut;(c) 135 degrees;cut;(b) 45 degrees
+Angle;cut;a;cut;(e) 10 degrees
+Angle;cut;b;cut;(b) 135 degrees
+Angle;cut;d;cut;(a) 180 degrees
+Angle;cut;e;cut;(a) 135 degrees
+Angle;cut;b;cut;(e) 10 degrees
+Angle;cut;b;cut;(a) 10 degrees
+Angle;cut;a;cut;(a) 135 degrees
+Angle;cut;(b) 45 degrees;cut;(a) 135 degrees
+Angle;cut;b;cut;(a) 45 degrees
+Angle;cut;b;cut;(b) 45 degrees
+Area;cut;(b) B;cut;(b) B
+Area;cut;(b) B;cut;(c) C
+Area;cut;(a) A;cut;(c) C
+Area;cut;(a) A;cut;(a) A
+Area;cut;(a) A;cut;(b) B
+Area;cut;(b) B;cut;(d) D
+Area;cut;(a) A;cut;(d) D
+Area;cut;(a) A;cut;(b) B
+Area;cut;(a) A;cut;(b) B
+Area;cut;(d) D;cut;(b) B
+Area;cut;(a) A;cut;(b) B
+Area;cut;(d) D;cut;(d) D
+Area;cut;(d) D;cut;(d) D
+Area;cut;(a) A;cut;(a) A
+Area;cut;(c) C;cut;(b) B
+Area;cut;(a) A;cut;(a) A
+Area;cut;(a) A;cut;(b) B
+Area;cut;(b) B;cut;(b) B
+Area;cut;(a) A;cut;(a) A
+Area;cut;(c) C;cut;(c) C
+Area;cut;(b) B;cut;(b) B
+Area;cut;(a) A;cut;(c) C
+Area;cut;(a) A;cut;(c) C
+Area;cut;(a) A;cut;(a) A
+Area;cut;(c) C;cut;(c) C
+Area;cut;(a) A;cut;(b) B
+Area;cut;(b) B;cut;(c) C
+Area;cut;(b) B;cut;(b) B
+Area;cut;(a) A;cut;(a) A
+Area;cut;(b) B;cut;(b) B
+Area;cut;(b) B;cut;(b) B
+Area;cut;(a) A;cut;(d) D
+Area;cut;(a) A;cut;(a) A
+Area;cut;(d) D;cut;(d) D
+Area;cut;(a) A;cut;(a) A
+Area;cut;(d) D;cut;(c) C
+Area;cut;(c) C;cut;(c) C
+Area;cut;(c) C;cut;(d) D
+Area;cut;(a) A;cut;(a) A
+Area;cut;(d) D;cut;(c) C
+Area;cut;(b) B;cut;(d) D
+Area;cut;(d) D;cut;(d) D
+Area;cut;(d) D;cut;(b) B
+Area;cut;(d) D;cut;(c) C
+Area;cut;(c) C;cut;(c) C
+Area;cut;(b) B;cut;(d) D
+Area;cut;(a) A;cut;(d) D
+Area;cut;(b) B;cut;(b) B
+Area;cut;(d) D;cut;(a) A
+Area;cut;(a) A;cut;(d) D
+Area;cut;c;cut;(c) 2
+Area;cut;e;cut;(b) 1
+Area;cut;b;cut;(b) 2
+Area;cut;e;cut;(e) 1
+Area;cut;b;cut;(d) 0.5
+Area;cut;b;cut;(b) 0.5
+Area;cut;a;cut;(d) 4
+Area;cut;b;cut;(a) 1
+Area;cut;a;cut;(a) 4
+Area;cut;c;cut;(b) 0.25
+Area;cut;b;cut;(b) 4
+Area;cut;b;cut;(a) 0.25
+Area;cut;a;cut;(a) 4
+Area;cut;b;cut;(c) 0.25
+Area;cut;a;cut;(e) 0.5
+Area;cut;d;cut;(e) 2
+Area;cut;b;cut;(b) 4
+Area;cut;d;cut;(d) 2
+Area;cut;b;cut;(c) 2
+Area;cut;b;cut;(a) 1
+Area;cut;e;cut;(b) 0.5
+Area;cut;b;cut;(b) 4
+Area;cut;c;cut;(c) 2
+Area;cut;d;cut;(c) 0.5
+Area;cut;e;cut;(a) 0.5
+Area;cut;d;cut;(b) 1
+Area;cut;d;cut;(e) 1
+Area;cut;a;cut;(b) 1
+Area;cut;e;cut;(d) 0.25
+Area;cut;b;cut;(c) 0.25
+Area;cut;b;cut;(e) 0.5
+Area;cut;b;cut;(a) 0.25
+Area;cut;a;cut;(d) 2
+Area;cut;a;cut;(a) 4
+Area;cut;b;cut;(b) 4
+Area;cut;a;cut;(e) 0.5
+Area;cut;b;cut;(c) 1
+Area;cut;d;cut;(e) 0.25
+Area;cut;a;cut;(c) 0.25
+Area;cut;a;cut;(c) 2
+Area;cut;e;cut;(c) 1
+Area;cut;e;cut;(c) 0.25
+Area;cut;b;cut;(e) 0.5
+Area;cut;a;cut;(c) 1
+Area;cut;b;cut;(a) 2
+Area;cut;b;cut;(b) 4
+Area;cut;a;cut;(b) 1
+Area;cut;e;cut;(c) 1
+Area;cut;e;cut;(a) 4
+Area;cut;a;cut;(c) 0.5
+Height;cut;b;cut;(c) 0.38
+Height;cut;b;cut;(b) 0.45
+Height;cut;d;cut;(d) 0.51
+Height;cut;a;cut;(b) 0.89
+Height;cut;d;cut;(d) 0.53
+Height;cut;a;cut;(a) 0.56
+Height;cut;a;cut;(a) 0.16
+Height;cut;a;cut;(d) 0.73
+Height;cut;c;cut;(c) 0.39
+Height;cut;c;cut;(c) 0.57
+Height;cut;d;cut;(d) 0.53
+Height;cut;d;cut;(c) 0.74
+Height;cut;b;cut;(b) 0.39
+Height;cut;a;cut;(a) 0.77
+Height;cut;a;cut;(a) 0.87
+Height;cut;b;cut;(b) 0.49
+Height;cut;c;cut;(c) 0.36
+Height;cut;C;cut;(c) 0.58
+Height;cut;a;cut;(d) 0.66
+Height;cut;b;cut;(b) 0.27
+Height;cut;d;cut;(a) 0.87
+Height;cut;d;cut;(d) 0.48
+Height;cut;a;cut;(b) 0.29
+Height;cut;b;cut;(d) 0.28
+Height;cut;c;cut;(b) 0.87
+Height;cut;a;cut;(a) 0.47
+Height;cut;a;cut;(d) 0.66
+Height;cut;b;cut;(b) 0.69
+Height;cut;C;cut;(c) 0.48
+Height;cut;C;cut;(c) 0.49
+Height;cut;d;cut;(d) 0.18
+Height;cut;b;cut;(c) 0.8
+Height;cut;d;cut;(a) 0.81
+Height;cut;b;cut;(b) 0.39
+Height;cut;b;cut;(d) 0.48
+Height;cut;b;cut;(a) 0.87
+Height;cut;d;cut;(b) 0.7
+Height;cut;b;cut;(c) 0.21
+Height;cut;d;cut;(d) 0.22
+Height;cut;d;cut;(d) 0.51
+Height;cut;C;cut;(b) 0.74
+Height;cut;d;cut;(c) 0.78
+Height;cut;d;cut;(b) 0.82
+Height;cut;C;cut;(a) 0.83
+Height;cut;d;cut;(d) 0.62
+Height;cut;d;cut;(c) 0.14
+Height;cut;d;cut;(d) 0.38
+Height;cut;a;cut;(a) 0.36
+Height;cut;a;cut;(b) 0.12
+Height;cut;d;cut;(c) 0.73
+Height;cut;(c) C;cut;(c) C
+Height;cut;(b) B;cut;(b) B
+Height;cut;(c) C;cut;(a) A
+Height;cut;(b) B;cut;(d) D
+Height;cut;(b) B;cut;(b) B
+Height;cut;(c) C;cut;(a) A
+Height;cut;C;cut;(c) C
+Height;cut;C;cut;(a) A
+Height;cut;(b) B;cut;(a) A
+Height;cut;(c) C;cut;(c) C
+Height;cut;(c) C;cut;(d) D
+Height;cut;(b) B;cut;(d) D
+Height;cut;C;cut;(c) C
+Height;cut;(a) A;cut;(d) D
+Height;cut;(b) B;cut;(b) B
+Height;cut;(c) C;cut;(b) B
+Height;cut;C;cut;(d) D
+Height;cut;(d) D;cut;(a) A
+Height;cut;(b) B;cut;(b) B
+Height;cut;(c) C;cut;(d) D
+Height;cut;(d) D;cut;(b) B
+Height;cut;(b) B;cut;(a) A
+Height;cut;(b) B;cut;(b) B
+Height;cut;(b) B;cut;(b) B
+Height;cut;(c) C;cut;(c) C
+Height;cut;(a) A;cut;(d) D
+Height;cut;(b) B;cut;(d) D
+Height;cut;(d) D;cut;(b) B
+Height;cut;(c) C;cut;(a) A
+Height;cut;(c) C;cut;(c) C
+Height;cut;(c) C;cut;(c) C
+Height;cut;(d) D;cut;(a) A
+Height;cut;(d) D;cut;(a) A
+Height;cut;(c) C;cut;(b) B
+Height;cut;(b) B;cut;(b) B
+Height;cut;C;cut;(d) D
+Height;cut;(b) B;cut;(a) A
+Height;cut;(b) B;cut;(b) B
+Height;cut;(b) B;cut;(b) B
+Height;cut;(c) C;cut;(d) D
+Height;cut;(c) C;cut;(a) A
+Height;cut;(b) B;cut;(c) C
+Height;cut;(c) C;cut;(c) C
+Height;cut;(a) A;cut;(d) D
+Height;cut;(b) B;cut;(b) B
+Height;cut;(b) B;cut;(d) D
+Height;cut;(b) B;cut;(b) B
+Height;cut;(c) C;cut;(c) C
+Height;cut;(b) B;cut;(c) C
+Height;cut;(b) B;cut;(b) B
+Clock;cut;a;cut;(b) 4 hours and 02 minutes
+Clock;cut;a;cut;(b) 9 hours and 44 minutes
+Clock;cut;a;cut;(b) 3 hours and 06 minutes
+Clock;cut;d;cut;(b) 3 hours and 30 minutes
+Clock;cut;a;cut;(b) 2 hours and 03 minutes
+Clock;cut;a;cut;(a) 9 hours and 13 minutes
+Clock;cut;a;cut;(c) 10 hours and 00 minutes
+Clock;cut;a;cut;(b) 7 hours and 20 minutes
+Clock;cut;a;cut;(b) 2 hours and 08 minutes
+Clock;cut;a;cut;(c) 8 hours and 15 minutes
+Clock;cut;a;cut;(c) 1 hours and 39 minutes
+Clock;cut;(a) 2 hours and 05 minutes;cut;(c) 0 hours and 15 minutes
+Clock;cut;b;cut;(a) 11 hours and 43 minutes
+Clock;cut;b;cut;(a) 10 hours and 17 minutes
+Clock;cut;(b) 8 hours and 58 minutes;cut;(a) 0 hours and 48 minutes
+Clock;cut;(b) 5 hours and 27 minutes;cut;(c) 3 hours and 55 minutes
+Clock;cut;d;cut;(b) 6 hours and 21 minutes
+Clock;cut;a;cut;(c) 3 hours and 27 minutes
+Clock;cut;(b) 2 hours and 49 minutes;cut;(c) 7 hours and 25 minutes
+Clock;cut;a;cut;(b) 5 hours and 10 minutes
+Clock;cut;a;cut;(c) 3 hours and 59 minutes
+Clock;cut;(d) 5 hours and 37 minutes;cut;(b) 3 hours and 05 minutes
+Clock;cut;a;cut;(b) 9 hours and 26 minutes
+Clock;cut;d;cut;(a) 8 hours and 12 minutes
+Clock;cut;(b) 4 hours and 14 minutes;cut;(b) 4 hours and 14 minutes
+Clock;cut;a;cut;(c) 2 hours and 20 minutes
+Clock;cut;(d) 6 hours and 23 minutes;cut;(c) 0 hours and 09 minutes
+Clock;cut;a;cut;(a) 2 hours and 56 minutes
+Clock;cut;a;cut;(c) 9 hours and 13 minutes
+Clock;cut;a;cut;(b) 7 hours and 14 minutes
+Clock;cut;(d) 4 hours and 01 minutes;cut;(a) 10 hours and 42 minutes
+Clock;cut;(b) 0 hours and 38 minutes;cut;(b) 0 hours and 38 minutes
+Clock;cut;a;cut;(b) 11 hours and 23 minutes
+Clock;cut;a;cut;(a) 7 hours and 16 minutes
+Clock;cut;a;cut;(b) 2 hours and 33 minutes
+Clock;cut;d;cut;(b) 7 hours and 50 minutes
+Clock;cut;a;cut;(a) 8 hours and 29 minutes
+Clock;cut;d;cut;(a) 5 hours and 36 minutes
+Clock;cut;a;cut;(a) 8 hours and 22 minutes
+Clock;cut;(d) 5 hours and 07 minutes;cut;(a) 9 hours and 10 minutes
+Clock;cut;a;cut;(b) 11 hours and 48 minutes
+Clock;cut;d;cut;(b) 3 hours and 39 minutes
+Clock;cut;a;cut;(a) 4 hours and 19 minutes
+Clock;cut;(d) 7 hours and 12 minutes;cut;(b) 3 hours and 56 minutes
+Clock;cut;a;cut;(a) 10 hours and 53 minutes
+Clock;cut;a;cut;(a) 0 hours and 53 minutes
+Clock;cut;a;cut;(a) 4 hours and 25 minutes
+Clock;cut;(b) 12 hours and 51 minutes;cut;(c) 4 hours and 39 minutes
+Clock;cut;a;cut;(c) 10 hours and 10 minutes
+Clock;cut;a;cut;(a) 3 hours and 56 minutes
+Clock;cut;a;cut;(b) 5 hours and 21 minutes
+Clock;cut;(a) 10 hours and 37 minutes;cut;(b) 7 hours and 28 minutes
+Clock;cut;a;cut;(b) 6 hours and 58 minutes
+Clock;cut;a;cut;(c) 7 hours and 23 minutes
+Clock;cut;d;cut;(c) 6 hours and 40 minutes
+Clock;cut;a;cut;(a) 11 hours and 54 minutes
+Clock;cut;(d) 2 hours and 06 minutes;cut;(b) 9 hours and 33 minutes
+Clock;cut;a;cut;(c) 10 hours and 33 minutes
+Clock;cut;a;cut;(a) 3 hours and 29 minutes
+Clock;cut;(c) 11 hours and 26 minutes;cut;(a) 0 hours and 00 minutes
+Clock;cut;a;cut;(a) 8 hours and 33 minutes
+Clock;cut;b;cut;(b) 4 hours and 37 minutes
+Clock;cut;(d) 12 hours and 53 minutes;cut;(b) 7 hours and 11 minutes
+Clock;cut;a;cut;(b) 9 hours and 15 minutes
+Clock;cut;a;cut;(c) 5 hours and 29 minutes
+Clock;cut;b;cut;(a) 1 hours and 02 minutes
+Clock;cut;(b) 11 hours and 08 minutes;cut;(c) 1 hours and 13 minutes
+Clock;cut;(b) 8 hours and 58 minutes;cut;(b) 8 hours and 58 minutes
+Clock;cut;a;cut;(b) 2 hours and 15 minutes
+Clock;cut;a;cut;(c) 1 hours and 49 minutes
+Clock;cut;(d) 7 hours and 21 minutes;cut;(a) 11 hours and 25 minutes
+Clock;cut;a;cut;(b) 11 hours and 58 minutes
+Clock;cut;a;cut;(b) 6 hours and 35 minutes
+Clock;cut;a;cut;(a) 6 hours and 01 minutes
+Clock;cut;a;cut;(c) 5 hours and 51 minutes
+Clock;cut;(d) 7 hours and 17 minutes;cut;(a) 1 hours and 13 minutes
+Clock;cut;a;cut;(b) 7 hours and 42 minutes
+Clock;cut;a;cut;(c) 1 hours and 19 minutes
+Clock;cut;b;cut;(a) 5 hours and 06 minutes
+Clock;cut;a;cut;(a) 8 hours and 26 minutes
+Clock;cut;a;cut;(a) 9 hours and 53 minutes
+Clock;cut;b;cut;(c) 7 hours and 13 minutes
+Clock;cut;a;cut;(a) 7 hours and 41 minutes
+Clock;cut;a;cut;(c) 1 hours and 06 minutes
+Clock;cut;a;cut;(b) 10 hours and 26 minutes
+Clock;cut;b;cut;(a) 1 hours and 12 minutes
+Clock;cut;a;cut;(a) 5 hours and 04 minutes
+Clock;cut;a;cut;(a) 6 hours and 45 minutes
+Clock;cut;a;cut;(c) 8 hours and 40 minutes
+Clock;cut;(d) 12 hours and 52 minutes;cut;(a) 10 hours and 00 minutes
+Clock;cut;a;cut;(b) 5 hours and 49 minutes
+Clock;cut;a;cut;(a) 4 hours and 34 minutes
+Clock;cut;d;cut;(b) 8 hours and 21 minutes
+Clock;cut;a;cut;(b) 4 hours and 07 minutes
+Clock;cut;(b) 11 hours and 07 minutes;cut;(b) 11 hours and 07 minutes
+Clock;cut;(b) 11 hours and 26 minutes;cut;(c) 3 hours and 31 minutes
+Clock;cut;a;cut;(a) 7 hours and 18 minutes
+Clock;cut;d;cut;(c) 8 hours and 33 minutes
+Clock;cut;a;cut;(b) 10 hours and 27 minutes
+Clock;cut;a;cut;(c) 7 hours and 34 minutes
+Dense;cut;(c) red;cut;(d) purple
+Dense;cut;(b) blue;cut;(a) green
+Dense;cut;(c) blue;cut;(a) green
+Dense;cut;a;cut;(d) purple
+Dense;cut;(b) blue;cut;(a) red
+Dense;cut;(b) blue;cut;(d) purple
+Dense;cut;d;cut;(d) green
+Dense;cut;(d) red;cut;(a) blue
+Dense;cut;b;cut;(a) purple
+Dense;cut;c;cut;(a) green
+Dense;cut;c;cut;(c) purple
+Dense;cut;d;cut;(a) purple
+Dense;cut;(b) blue;cut;(a) purple
+Dense;cut;(b) green;cut;(d) purple
+Dense;cut;d;cut;(d) blue
+Dense;cut;(b) blue;cut;(c) green
+Dense;cut;c;cut;(c) red
+Dense;cut;(b) blue;cut;(b) blue
+Dense;cut;(d) blue;cut;(b) green
+Dense;cut;(c) blue;cut;(a) green
+Dense;cut;(b) red;cut;(b) red
+Dense;cut;b;cut;(c) purple
+Dense;cut;(b) green;cut;(c) purple
+Dense;cut;(b) green;cut;(b) green
+Dense;cut;(d) red;cut;(d) red
+Dense;cut;(d) purple;cut;(c) blue
+Dense;cut;a;cut;(a) red
+Dense;cut;(b) green;cut;(a) purple
+Dense;cut;(c) red;cut;(a) purple
+Dense;cut;(b) blue;cut;(b) blue
+Dense;cut;(b) purple;cut;(a) red
+Dense;cut;(b) blue;cut;(b) blue
+Dense;cut;a;cut;(d) purple
+Dense;cut;(b) blue;cut;(b) blue
+Dense;cut;b;cut;(b) blue
+Dense;cut;(b) blue;cut;(d) red
+Dense;cut;c;cut;(c) blue
+Dense;cut;c;cut;(c) blue
+Dense;cut;a;cut;(a) red
+Dense;cut;c;cut;(a) purple
+Dense;cut;(c) red;cut;(d) purple
+Dense;cut;a;cut;(c) blue
+Dense;cut;a;cut;(b) blue
+Dense;cut;(b) blue;cut;(d) red
+Dense;cut;(d) purple;cut;(b) blue
+Dense;cut;c;cut;(c) purple
+Dense;cut;(d) green;cut;(b) red
+Dense;cut;(c) purple;cut;(c) purple
+Dense;cut;(b) blue;cut;(c) purple
+Dense;cut;c;cut;(c) blue
+Dense;cut;(d) blue;cut;(d) blue
+Dense;cut;(b) blue;cut;(d) red
+Dense;cut;(c) blue;cut;(c) blue
+Dense;cut;a;cut;(d) red
+Dense;cut;(d) blue;cut;(b) red
+Dense;cut;(b) green;cut;(a) purple
+Dense;cut;(b) blue;cut;(a) red
+Dense;cut;(c) blue;cut;(a) purple
+Dense;cut;a;cut;(c) purple
+Dense;cut;(b) red;cut;(d) blue
+Dense;cut;(d) red;cut;(d) red
+Dense;cut;(b) blue;cut;(d) red
+Dense;cut;(c) blue;cut;(d) green
+Dense;cut;(b) blue;cut;(d) green
+Dense;cut;a;cut;(d) red
+Dense;cut;(c) blue;cut;(c) blue
+Dense;cut;C;cut;(c) blue
+Dense;cut;(c) blue;cut;(c) blue
+Dense;cut;(d) red;cut;(a) blue
+Dense;cut;a;cut;(a) blue
+Dense;cut;c;cut;(b) purple
+Dense;cut;a;cut;(a) blue
+Dense;cut;(d) green;cut;(d) green
+Dense;cut;(c) red;cut;(c) red
+Dense;cut;(c) red;cut;(b) purple
+Dense;cut;(c) blue;cut;(a) green
+Dense;cut;a;cut;(a) blue
+Dense;cut;(d) blue;cut;(b) green
+Dense;cut;(b) red;cut;(a) purple
+Dense;cut;(c) blue;cut;(b) green
+Dense;cut;(c) blue;cut;(b) green
+Dense;cut;(d) blue;cut;(d) blue
+Dense;cut;(b) green;cut;(d) purple
+Dense;cut;a;cut;(a) blue
+Dense;cut;(b) blue;cut;(c) green
+Dense;cut;(c) blue;cut;(b) green
+Dense;cut;a;cut;(b) purple
+Dense;cut;(d) blue;cut;(b) purple
+Dense;cut;(a) blue;cut;(b) red
+Dense;cut;d;cut;(b) purple
+Dense;cut;(b) blue;cut;(b) blue
+Dense;cut;c;cut;(c) blue
+Dense;cut;d;cut;(d) blue
+Dense;cut;a;cut;(a) red
+Dense;cut;(d) blue;cut;(a) green
+Dense;cut;(d) blue;cut;(c) purple
+Dense;cut;a;cut;(b) green
+Dense;cut;(b) red;cut;(c) green
+Dense;cut;(d) red;cut;(d) red
+Dense;cut;(d) blue;cut;(a) purple
+Length;cut;b;cut;(b) blue
+Length;cut;a;cut;(c) red
+Length;cut;c;cut;(c) blue
+Length;cut;c;cut;(d) green
+Length;cut;d;cut;(d) green
+Length;cut;d;cut;(c) red
+Length;cut;a;cut;(c) red
+Length;cut;a;cut;(b) red
+Length;cut;a;cut;(c) purple
+Length;cut;a;cut;(a) purple
+Length;cut;a;cut;(a) blue
+Length;cut;a;cut;(c) blue
+Length;cut;b;cut;(b) red
+Length;cut;c;cut;(c) red
+Length;cut;b;cut;(b) blue
+Length;cut;a;cut;(c) green
+Length;cut;c;cut;(c) purple
+Length;cut;a;cut;(a) purple
+Length;cut;C;cut;(c) red
+Length;cut;d;cut;(b) purple
+Length;cut;c;cut;(c) blue
+Length;cut;C;cut;(c) red
+Length;cut;a;cut;(a) green
+Length;cut;(b) blue;cut;(c) green
+Length;cut;c;cut;(b) green
+Length;cut;d;cut;(d) purple
+Length;cut;d;cut;(a) green
+Length;cut;a;cut;(a) green
+Length;cut;b;cut;(b) red
+Length;cut;a;cut;(a) purple
+Length;cut;a;cut;(a) blue
+Length;cut;c;cut;(c) green
+Length;cut;c;cut;(c) blue
+Length;cut;c;cut;(c) green
+Length;cut;(b) B;cut;(c) C
+Length;cut;(b) B;cut;(d) D
+Length;cut;(b) B;cut;(b) B
+Length;cut;(a) A;cut;(d) D
+Length;cut;(b) B;cut;(a) A
+Length;cut;(b) B;cut;(a) A
+Length;cut;(b) B;cut;(d) D
+Length;cut;(b) B;cut;(b) B
+Length;cut;(b) B;cut;(b) B
+Length;cut;(b) B;cut;(c) C
+Length;cut;(a) A;cut;(d) D
+Length;cut;(c) C;cut;(c) C
+Length;cut;(b) B;cut;(a) A
+Length;cut;(b) B;cut;(d) D
+Length;cut;(c) C;cut;(a) A
+Length;cut;(b) B;cut;(b) B
+Length;cut;(b) B;cut;(a) A
+Length;cut;(c) C;cut;(d) D
+Length;cut;(c) C;cut;(d) D
+Length;cut;(b) B;cut;(b) B
+Length;cut;(c) C;cut;(b) B
+Length;cut;(c) C;cut;(d) D
+Length;cut;A;cut;(a) A
+Length;cut;(b) B;cut;(a) A
+Length;cut;(b) B;cut;(c) C
+Length;cut;(d) D;cut;(d) D
+Length;cut;C;cut;(c) C
+Length;cut;(b) B;cut;(d) D
+Length;cut;(b) B;cut;(a) A
+Length;cut;(b) B;cut;(d) D
+Length;cut;C;cut;(b) B
+Length;cut;(b) B;cut;(a) A
+Length;cut;(a) A;cut;(d) D
+Length;cut;a;cut;(a) 6
+Length;cut;d;cut;(a) 5
+Length;cut;d;cut;(b) 5
+Length;cut;c;cut;(d) 5
+Length;cut;d;cut;(d) 4
+Length;cut;a;cut;(a) 2
+Length;cut;d;cut;(d) 8
+Length;cut;d;cut;(d) 4
+Length;cut;d;cut;(a) 7
+Length;cut;c;cut;(d) 5
+Length;cut;d;cut;(d) 5
+Length;cut;c;cut;(d) 6
+Length;cut;d;cut;(b) 8
+Length;cut;d;cut;(b) 6
+Length;cut;b;cut;(a) 7
+Length;cut;c;cut;(c) 2
+Length;cut;(a) 5;cut;(a) 5
+Length;cut;a;cut;(a) 5
+Length;cut;d;cut;(b) 2
+Length;cut;(b) 5;cut;(b) 5
+Length;cut;d;cut;(d) 5
+Length;cut;(b) 3;cut;(d) 7
+Length;cut;(b) 4;cut;(b) 4
+Length;cut;(b) 3;cut;(c) 6
+Length;cut;a;cut;(a) 3
+Length;cut;b;cut;(b) 5
+Length;cut;c;cut;(c) 6
+Length;cut;d;cut;(d) 2
+Length;cut;a;cut;(c) 3
+Length;cut;a;cut;(c) 7
+Length;cut;a;cut;(c) 4
+Length;cut;a;cut;(c) 7
+Length;cut;a;cut;(a) 2
