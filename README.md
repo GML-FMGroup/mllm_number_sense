@@ -2,7 +2,7 @@
 
 This repo contains evaluation code for the paper "[VisNumBench: Evaluating Number Sense of Multimodal Large Language Models](https://arxiv.org/abs/2404.12390.pdf)"
 
-​																[**🌐 Homepage**](https://wwwtttjjj.github.io/VisNumBench/) | [**🤗 Dataset**](https://huggingface.co/datasets/BLINK-Benchmark/BLINK) | [**📑 Paper**](https://arxiv.org/pdf/2503.14939v1) | [**📖 arXiv**](https://arxiv.org/abs/2503.14939v1)
+​																[**🌐 Homepage**](https://wwwtttjjj.github.io/VisNumBench/) | [**🤗 Dataset**](https://huggingface.co/datasets/wwwtttjjj/VisNumBench) | [**📑 Paper**](https://arxiv.org/pdf/2503.14939v1) | [**📖 arXiv**](https://arxiv.org/abs/2503.14939v1)
 
 
 
@@ -13,22 +13,22 @@ Can Multimodal Large Language Models (MLLMs) develop an intuitive number sense s
 ![Alt text](assets/overall.jpg)
 ## Dataset Creation
 
-BLINK is created to challenge multimodal models on hollistic visual perception abilities with tasks inherited from classic computer vision problems, stimulating future development of multimodal LLMs that achieve human-level visual perception. Please refer to our huggingface [**🤗 Dataset**](https://huggingface.co/datasets/BLINK-Benchmark/BLINK) for more details.
-**Unique Features** of BLINK includes diverse visual prompting, beyond recognition perception, and visual commonsense.
+VisNumBench aims to advance the development of multimodal large language models in visual numerical understanding by evaluating their number sense capabilities. This benchmark is dedicated to bridging the gap between abstract mathematical problem-solving and real-world applications in current multimodal models. Please refer to our huggingface [**🤗 Dataset**](https://huggingface.co/datasets/wwwtttjjj/VisNumBench) for more details.
 
-<!-- ![Alt text](assets/comparison.png) -->
 ## Load Dataset
+
 ```
 import datasets
 
-dataset_name = 'BLINK-Benchmark/BLINK'
-data = load_dataset(dataset_name, SUBTASK_NAME)
+dataset_name = 'wwwtttjjj/VisNumBench'
+data = load_dataset(dataset_name)
 ```
-where `SUBTASK_NAME` is one of the subtasks: `['Art_Style', 'Functional_Correspondence', 'Multi-view_Reasoning', 'Relative_Reflectance', 'Visual_Correspondence', 'Counting', 'IQ_Test', 'Object_Localization', 'Semantic_Correspondence', 'Visual_Similarity', 'Forensic_Detection', 'Jigsaw', 'Relative_Depth', 'Spatial_Relation']`
+`Attributes` is one of the attributes: `['Angle', 'Length', 'Scale', 'Depth', 'Quantity', 'Depth', 'Area', 'Volume']`;
+
+`task_class` is one of the tasks: `['Range Estimation', 'Value Comparison', 'Value Estimation', 'Multiplicative Estimation']`.
 
 ## Evaluation
-Please refer to our [eval](eval)
- folder for more details.
+Please refer to our [eval](eval)folder for more details.
 
 <img src="assets/radar.jpg"  />
 
@@ -42,7 +42,7 @@ Please refer to our [eval](eval)
 | Qwen2.5-VL-72B      |           **58.46**           |         53.33          |
 | InternVL2.5-38B     |             55.59             |         52.11          |
 | LLaVA-Onevision-72B |             50.84             |         50.78          |
-| Qwen2-VL-72B        |             54.2              |         46.56          |
+| Qwen2-VL-72B        |             54.20             |         46.56          |
 | LLaVA-v1.6-34B      |             44.31             |         50.55          |
 | Gemini 1.5 Pro      |             44.02             |         48.67          |
 | InternVL2-40B       |             45.5              |         45.12          |
@@ -50,7 +50,7 @@ Please refer to our [eval](eval)
 | Llama-VL-3_2-11B    |             43.92             |         43.24          |
 | Qwen2.5-VL-3B       |             42.43             |         42.57          |
 | Qwen2-VL-7B         |             42.24             |         41.91          |
-| Llama-3.2V-11B-cot  |             45.5              |         38.36          |
+| Llama-3.2V-11B-cot  |             45.50             |         38.36          |
 | GPT-4o              |             43.72             |         39.58          |
 | InternVL2-8B-MPO    |             40.65             |         39.91          |
 | LLaVA-Onevision-7B  |             39.96             |         40.58          |
@@ -67,8 +67,6 @@ Please refer to our [eval](eval)
 | Qwen2-VL-2B | 31.85 | 24.94 |
 | 👀 **Random** | 24.76 | 25.54 |
 |  |  |  |
-
-🎯 **We have released a full suite comprising 1,901 [validation samples](https://huggingface.co/datasets/BLINK-Benchmark/BLINK), the [prompt](https://huggingface.co/datasets/BLINK-Benchmark/BLINK) we used, and [model predictions](eval/saved_outputs) for the baselines tested in our paper. However, the 1,907 test questions are available without their answers.** You can submit your model's predictions for the **test set** on **[EvalAI](https://eval.ai/web/challenges/challenge-page/2287/overview)**.
 
 ## Disclaimers
 
