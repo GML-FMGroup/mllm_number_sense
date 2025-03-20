@@ -3076,7 +3076,7 @@
             "option_num": 4
         },
         {
-            "text": "ADC is X times larger in area than ABD. Which of the following options is a reasonable estimate?",
+            "text": "ADC is X times larger in area than ABD. Which of the following options is a reasonable estimate for X?",
             "image_path": "Only_data/Synthetic Mathematical Dataset/Area/115_Area.png",
             "option": "(a) 0.5 (b) 1 (c) 2 (d) 4 (e) 0.25",
             "answer": "(c) 2",
@@ -3087,7 +3087,7 @@
             "option_num": 5
         },
         {
-            "text": "CAH is X times larger in area than CHB. Which of the following options is a reasonable estimate?",
+            "text": "CAH is X times larger in area than CHB. Which of the following options is a reasonable estimate for X?",
             "image_path": "Only_data/Synthetic Mathematical Dataset/Area/129_Area.png",
             "option": "(a) 2 (b) 1 (c) 4 (d) 0.25 (e) 0.5",
             "answer": "(b) 1",
@@ -3098,7 +3098,7 @@
             "option_num": 5
         },
         {
-            "text": "ADEC is X times larger in area than DBE. Which of the following options is a reasonable estimate?",
+            "text": "ADEC is X times larger in area than DBE. Which of the following options is a reasonable estimate for X?",
             "image_path": "Only_data/Synthetic Mathematical Dataset/Area/39_Area.png",
             "option": "(a) 0.5 (b) 2 (c) 0.25 (d) 1 (e) 4",
             "answer": "(b) 2",
@@ -3109,7 +3109,7 @@
             "option_num": 5
         },
         {
-            "text": "CBA is X times larger in area than C'B'A. Which of the following options is a reasonable estimate?",
+            "text": "CBA is X times larger in area than C'B'A. Which of the following options is a reasonable estimate for X?",
             "image_path": "Only_data/Synthetic Mathematical Dataset/Area/164_Area.png",
             "option": "(a) 0.25 (b) 0.5 (c) 2 (d) 4 (e) 1",
             "answer": "(e) 1",
@@ -3120,7 +3120,7 @@
             "option_num": 5
         },
         {
-            "text": "QNM is X times larger in area than QML. Which of the following options is a reasonable estimate?",
+            "text": "QNM is X times larger in area than QML. Which of the following options is a reasonable estimate for X?",
             "image_path": "Only_data/Synthetic Mathematical Dataset/Area/113_Area.png",
             "option": "(a) 1 (b) 2 (c) 4 (d) 0.5 (e) 0.25",
             "answer": "(d) 0.5",
@@ -3131,7 +3131,7 @@
             "option_num": 5
         },
         {
-            "text": "ACD is X times larger in area than ABCD. Which of the following options is a reasonable estimate?",
+            "text": "ACD is X times larger in area than ABCD. Which of the following options is a reasonable estimate for X?",
             "image_path": "Only_data/Synthetic Mathematical Dataset/Area/18_Area.png",
             "option": "(a) 0.25 (b) 0.5 (c) 2 (d) 1 (e) 4",
             "answer": "(b) 0.5",
@@ -3142,7 +3142,7 @@
             "option_num": 5
         },
         {
-            "text": "ABE is X times larger in area than ADE. Which of the following options is a reasonable estimate?",
+            "text": "ABE is X times larger in area than ADE. Which of the following options is a reasonable estimate for X?",
             "image_path": "Only_data/Synthetic Mathematical Dataset/Area/177_Area.png",
             "option": "(a) 2 (b) 0.5 (c) 0.25 (d) 4 (e) 1",
             "answer": "(d) 4",
@@ -3153,7 +3153,7 @@
             "option_num": 5
         },
         {
-            "text": "ABC is X times larger in area than ACD. Which of the following options is a reasonable estimate?",
+            "text": "ABC is X times larger in area than ACD. Which of the following options is a reasonable estimate for X?",
             "image_path": "Only_data/Synthetic Mathematical Dataset/Area/1_Area.png",
             "option": "(a) 1 (b) 4 (c) 2 (d) 0.25 (e) 0.5",
             "answer": "(a) 1",
@@ -3164,7 +3164,7 @@
             "option_num": 5
         },
         {
-            "text": "ABC is X times larger in area than AED. Which of the following options is a reasonable estimate?",
+            "text": "ABC is X times larger in area than AED. Which of the following options is a reasonable estimate for X?",
             "image_path": "Only_data/Synthetic Mathematical Dataset/Area/73_Area.png",
             "option": "(a) 4 (b) 0.5 (c) 1 (d) 0.25 (e) 2",
             "answer": "(a) 4",
@@ -3175,7 +3175,7 @@
             "option_num": 5
         },
         {
-            "text": "EDB is X times larger in area than CAB. Which of the following options is a reasonable estimate?",
+            "text": "EDB is X times larger in area than CAB. Which of the following options is a reasonable estimate for X?",
             "image_path": "Only_data/Synthetic Mathematical Dataset/Area/64_Area.png",
             "option": "(a) 0.5 (b) 0.25 (c) 4 (d) 1 (e) 2",
             "answer": "(b) 0.25",
@@ -3186,7 +3186,7 @@
             "option_num": 5
         },
         {
-            "text": "ABC is X times larger in area than FBC. Which of the following options is a reasonable estimate?",
+            "text": "ABC is X times larger in area than FBC. Which of the following options is a reasonable estimate for X?",
             "image_path": "Only_data/Synthetic Mathematical Dataset/Area/81_Area.png",
             "option": "(a) 2 (b) 4 (c) 0.5 (d) 0.25 (e) 1",
             "answer": "(b) 4",
@@ -3197,7 +3197,7 @@
             "option_num": 5
         },
         {
-            "text": "ADE is X times larger in area than DBCE. Which of the following options is a reasonable estimate?",
+            "text": "ADE is X times larger in area than DBCE. Which of the following options is a reasonable estimate for X?",
             "image_path": "Only_data/Synthetic Mathematical Dataset/Area/0_Area.png",
             "option": "(a) 0.25 (b) 4 (c) 0.5 (d) 1 (e) 2",
             "answer": "(a) 0.25",
@@ -3208,7 +3208,7 @@
             "option_num": 5
         },
         {
-            "text": "EFOB is X times larger in area than OCF. Which of the following options is a reasonable estimate?",
+            "text": "EFOB is X times larger in area than OCF. Which of the following options is a reasonable estimate for X?",
             "image_path": "Only_data/Synthetic Mathematical Dataset/Area/52_Area.png",
             "option": "(a) 4 (b) 0.5 (c) 2 (d) 0.25 (e) 1",
             "answer": "(a) 4",
@@ -3219,7 +3219,7 @@
             "option_num": 5
         },
         {
-            "text": "ECD is X times larger in area than ABCD. Which of the following options is a reasonable estimate?",
+            "text": "ECD is X times larger in area than ABCD. Which of the following options is a reasonable estimate for X?",
             "image_path": "Only_data/Synthetic Mathematical Dataset/Area/111_Area.png",
             "option": "(a) 2 (b) 4 (c) 0.25 (d) 0.5 (e) 1",
             "answer": "(c) 0.25",
@@ -3230,7 +3230,7 @@
             "option_num": 5
         },
         {
-            "text": "ADC is X times larger in area than ACB. Which of the following options is a reasonable estimate?",
+            "text": "ADC is X times larger in area than ACB. Which of the following options is a reasonable estimate for X?",
             "image_path": "Only_data/Synthetic Mathematical Dataset/Area/165_Area.png",
             "option": "(a) 4 (b) 0.25 (c) 2 (d) 1 (e) 0.5",
             "answer": "(e) 0.5",
@@ -3241,7 +3241,7 @@
             "option_num": 5
         },
         {
-            "text": "ABD is X times larger in area than BOC. Which of the following options is a reasonable estimate?",
+            "text": "ABD is X times larger in area than BOC. Which of the following options is a reasonable estimate for X?",
             "image_path": "Only_data/Synthetic Mathematical Dataset/Area/163_Area.png",
             "option": "(a) 0.5 (b) 1 (c) 0.25 (d) 4 (e) 2",
             "answer": "(e) 2",
@@ -3252,7 +3252,7 @@
             "option_num": 5
         },
         {
-            "text": "ABDC is X times larger in area than CDF. Which of the following options is a reasonable estimate?",
+            "text": "ABDC is X times larger in area than CDF. Which of the following options is a reasonable estimate for X?",
             "image_path": "Only_data/Synthetic Mathematical Dataset/Area/175_Area.png",
             "option": "(a) 1 (b) 4 (c) 2 (d) 0.25 (e) 0.5",
             "answer": "(b) 4",
@@ -3263,7 +3263,7 @@
             "option_num": 5
         },
         {
-            "text": "ADC is X times larger in area than ABE. Which of the following options is a reasonable estimate?",
+            "text": "ADC is X times larger in area than ABE. Which of the following options is a reasonable estimate for X?",
             "image_path": "Only_data/Synthetic Mathematical Dataset/Area/162_Area.png",
             "option": "(a) 1 (b) 0.5 (c) 0.25 (d) 2 (e) 4",
             "answer": "(d) 2",
@@ -3274,7 +3274,7 @@
             "option_num": 5
         },
         {
-            "text": "BAM is X times larger in area than BMN. Which of the following options is a reasonable estimate?",
+            "text": "BAM is X times larger in area than BMN. Which of the following options is a reasonable estimate for X?",
             "image_path": "Only_data/Synthetic Mathematical Dataset/Area/57_Area.png",
             "option": "(a) 0.25 (b) 4 (c) 2 (d) 0.5 (e) 1",
             "answer": "(c) 2",
@@ -3285,7 +3285,7 @@
             "option_num": 5
         },
         {
-            "text": "ABOD is X times larger in area than DOBC. Which of the following options is a reasonable estimate?",
+            "text": "ABOD is X times larger in area than DOBC. Which of the following options is a reasonable estimate for X?",
             "image_path": "Only_data/Synthetic Mathematical Dataset/Area/66_Area.png",
             "option": "(a) 1 (b) 4 (c) 0.5 (d) 2 (e) 0.25",
             "answer": "(a) 1",
@@ -3296,7 +3296,7 @@
             "option_num": 5
         },
         {
-            "text": "CAG is X times larger in area than CDB. Which of the following options is a reasonable estimate?",
+            "text": "CAG is X times larger in area than CDB. Which of the following options is a reasonable estimate for X?",
             "image_path": "Only_data/Synthetic Mathematical Dataset/Area/144_Area.png",
             "option": "(a) 1 (b) 0.5 (c) 0.25 (d) 2 (e) 4",
             "answer": "(b) 0.5",
@@ -3307,7 +3307,7 @@
             "option_num": 5
         },
         {
-            "text": "A is X times larger in area than B. Which of the following options is a reasonable estimate?",
+            "text": "A is X times larger in area than B. Which of the following options is a reasonable estimate for X?",
             "image_path": "Only_data/Synthetic Mathematical Dataset/Area/82_Area.png",
             "option": "(a) 0.5 (b) 4 (c) 2 (d) 0.25 (e) 1",
             "answer": "(b) 4",
@@ -3318,7 +3318,7 @@
             "option_num": 5
         },
         {
-            "text": "ABCE is X times larger in area than ABE. Which of the following options is a reasonable estimate?",
+            "text": "ABCE is X times larger in area than ABE. Which of the following options is a reasonable estimate for X?",
             "image_path": "Only_data/Synthetic Mathematical Dataset/Area/47_Area.png",
             "option": "(a) 1 (b) 0.5 (c) 2 (d) 4 (e) 0.25",
             "answer": "(c) 2",
@@ -3329,7 +3329,7 @@
             "option_num": 5
         },
         {
-            "text": "ADO is X times larger in area than ODC. Which of the following options is a reasonable estimate?",
+            "text": "ADO is X times larger in area than ODC. Which of the following options is a reasonable estimate for X?",
             "image_path": "Only_data/Synthetic Mathematical Dataset/Area/5_Area.png",
             "option": "(a) 2 (b) 0.25 (c) 0.5 (d) 4 (e) 1",
             "answer": "(c) 0.5",
@@ -3340,7 +3340,7 @@
             "option_num": 5
         },
         {
-            "text": "AMP is X times larger in area than AQC. Which of the following options is a reasonable estimate?",
+            "text": "AMP is X times larger in area than AQC. Which of the following options is a reasonable estimate for X?",
             "image_path": "Only_data/Synthetic Mathematical Dataset/Area/179_Area.png",
             "option": "(a) 0.5 (b) 0.25 (c) 4 (d) 2 (e) 1",
             "answer": "(a) 0.5",
@@ -3351,7 +3351,7 @@
             "option_num": 5
         },
         {
-            "text": "ABO is X times larger in area than ABC. Which of the following options is a reasonable estimate?",
+            "text": "ABO is X times larger in area than ABC. Which of the following options is a reasonable estimate for X?",
             "image_path": "Only_data/Synthetic Mathematical Dataset/Area/110_Area.png",
             "option": "(a) 2 (b) 1 (c) 0.5 (d) 4 (e) 0.25",
             "answer": "(b) 1",
@@ -3362,7 +3362,7 @@
             "option_num": 5
         },
         {
-            "text": "ADC is X times larger in area than ABC. Which of the following options is a reasonable estimate?",
+            "text": "ADC is X times larger in area than ABC. Which of the following options is a reasonable estimate for X?",
             "image_path": "Only_data/Synthetic Mathematical Dataset/Area/185_Area.png",
             "option": "(a) 2 (b) 0.25 (c) 4 (d) 0.5 (e) 1",
             "answer": "(e) 1",
@@ -3373,7 +3373,7 @@
             "option_num": 5
         },
         {
-            "text": "CAB is X times larger in area than FDE. Which of the following options is a reasonable estimate?",
+            "text": "CAB is X times larger in area than FDE. Which of the following options is a reasonable estimate for X?",
             "image_path": "Only_data/Synthetic Mathematical Dataset/Area/29_Area.png",
             "option": "(a) 4 (b) 1 (c) 2 (d) 0.25 (e) 0.5",
             "answer": "(b) 1",
@@ -3384,7 +3384,7 @@
             "option_num": 5
         },
         {
-            "text": "CNM is X times larger in area than CBA. Which of the following options is a reasonable estimate?",
+            "text": "CNM is X times larger in area than CBA. Which of the following options is a reasonable estimate for X?",
             "image_path": "Only_data/Synthetic Mathematical Dataset/Area/4_Area.png",
             "option": "(a) 1 (b) 2 (c) 4 (d) 0.25 (e) 0.5",
             "answer": "(d) 0.25",
@@ -3395,7 +3395,7 @@
             "option_num": 5
         },
         {
-            "text": "BED is X times larger in area than BCA. Which of the following options is a reasonable estimate?",
+            "text": "BED is X times larger in area than BCA. Which of the following options is a reasonable estimate for X?",
             "image_path": "Only_data/Synthetic Mathematical Dataset/Area/124_Area.png",
             "option": "(a) 0.5 (b) 2 (c) 0.25 (d) 1 (e) 4",
             "answer": "(c) 0.25",
@@ -3406,7 +3406,7 @@
             "option_num": 5
         },
         {
-            "text": "ADE is X times larger in area than ABC. Which of the following options is a reasonable estimate?",
+            "text": "ADE is X times larger in area than ABC. Which of the following options is a reasonable estimate for X?",
             "image_path": "Only_data/Synthetic Mathematical Dataset/Area/181_Area.png",
             "option": "(a) 0.25 (b) 2 (c) 1 (d) 4 (e) 0.5",
             "answer": "(e) 0.5",
@@ -3417,7 +3417,7 @@
             "option_num": 5
         },
         {
-            "text": "BDC is X times larger in area than ABC. Which of the following options is a reasonable estimate?",
+            "text": "BDC is X times larger in area than ABC. Which of the following options is a reasonable estimate for X?",
             "image_path": "Only_data/Synthetic Mathematical Dataset/Area/36_Area.png",
             "option": "(a) 0.25 (b) 2 (c) 0.5 (d) 1 (e) 4",
             "answer": "(a) 0.25",
@@ -3428,7 +3428,7 @@
             "option_num": 5
         },
         {
-            "text": "ABCE is X times larger in area than CDE. Which of the following options is a reasonable estimate?",
+            "text": "ABCE is X times larger in area than CDE. Which of the following options is a reasonable estimate for X?",
             "image_path": "Only_data/Synthetic Mathematical Dataset/Area/166_Area.png",
             "option": "(a) 4 (b) 1 (c) 0.25 (d) 2 (e) 0.5",
             "answer": "(d) 2",
@@ -3439,7 +3439,7 @@
             "option_num": 5
         },
         {
-            "text": "ABC is X times larger in area than AED. Which of the following options is a reasonable estimate?",
+            "text": "ABC is X times larger in area than AED. Which of the following options is a reasonable estimate for X?",
             "image_path": "Only_data/Synthetic Mathematical Dataset/Area/126_Area.png",
             "option": "(a) 4 (b) 0.5 (c) 1 (d) 0.25 (e) 2",
             "answer": "(a) 4",
@@ -3450,7 +3450,7 @@
             "option_num": 5
         },
         {
-            "text": "ABP is X times larger in area than ABC. Which of the following options is a reasonable estimate?",
+            "text": "ABP is X times larger in area than ABC. Which of the following options is a reasonable estimate for X?",
             "image_path": "Only_data/Synthetic Mathematical Dataset/Area/24_Area.png",
             "option": "(a) 1 (b) 4 (c) 0.5 (d) 2 (e) 0.25",
             "answer": "(b) 4",
@@ -3461,7 +3461,7 @@
             "option_num": 5
         },
         {
-            "text": "BAH is X times larger in area than BHD. Which of the following options is a reasonable estimate?",
+            "text": "BAH is X times larger in area than BHD. Which of the following options is a reasonable estimate for X?",
             "image_path": "Only_data/Synthetic Mathematical Dataset/Area/127_Area.png",
             "option": "(a) 4 (b) 2 (c) 0.25 (d) 1 (e) 0.5",
             "answer": "(e) 0.5",
@@ -3472,7 +3472,7 @@
             "option_num": 5
         },
         {
-            "text": "EDC is X times larger in area than EDB. Which of the following options is a reasonable estimate?",
+            "text": "EDC is X times larger in area than EDB. Which of the following options is a reasonable estimate for X?",
             "image_path": "Only_data/Synthetic Mathematical Dataset/Area/37_Area.png",
             "option": "(a) 0.25 (b) 4 (c) 1 (d) 2 (e) 0.5",
             "answer": "(c) 1",
@@ -3483,7 +3483,7 @@
             "option_num": 5
         },
         {
-            "text": "ADC is X times larger in area than ABD. Which of the following options is a reasonable estimate?",
+            "text": "ADC is X times larger in area than ABD. Which of the following options is a reasonable estimate for X?",
             "image_path": "Only_data/Synthetic Mathematical Dataset/Area/151_Area.png",
             "option": "(a) 0.5 (b) 1 (c) 2 (d) 4 (e) 0.25",
             "answer": "(e) 0.25",
@@ -3494,7 +3494,7 @@
             "option_num": 5
         },
         {
-            "text": "EDC is X times larger in area than ABC. Which of the following options is a reasonable estimate?",
+            "text": "EDC is X times larger in area than ABC. Which of the following options is a reasonable estimate for X?",
             "image_path": "Only_data/Synthetic Mathematical Dataset/Area/155_Area.png",
             "option": "(a) 4 (b) 2 (c) 0.25 (d) 1 (e) 0.5",
             "answer": "(c) 0.25",
@@ -3505,7 +3505,7 @@
             "option_num": 5
         },
         {
-            "text": "ACB is X times larger in area than ADE. Which of the following options is a reasonable estimate?",
+            "text": "ACB is X times larger in area than ADE. Which of the following options is a reasonable estimate for X?",
             "image_path": "Only_data/Synthetic Mathematical Dataset/Area/174_Area.png",
             "option": "(a) 4 (b) 0.5 (c) 2 (d) 0.25 (e) 1",
             "answer": "(c) 2",
@@ -3516,7 +3516,7 @@
             "option_num": 5
         },
         {
-            "text": "ABO is X times larger in area than AOD. Which of the following options is a reasonable estimate?",
+            "text": "ABO is X times larger in area than AOD. Which of the following options is a reasonable estimate for X?",
             "image_path": "Only_data/Synthetic Mathematical Dataset/Area/44_Area.png",
             "option": "(a) 0.5 (b) 4 (c) 1 (d) 0.25 (e) 2",
             "answer": "(c) 1",
@@ -3527,7 +3527,7 @@
             "option_num": 5
         },
         {
-            "text": "BEC is X times larger in area than ABED. Which of the following options is a reasonable estimate?",
+            "text": "BEC is X times larger in area than ABED. Which of the following options is a reasonable estimate for X?",
             "image_path": "Only_data/Synthetic Mathematical Dataset/Area/16_Area.png",
             "option": "(a) 2 (b) 4 (c) 0.25 (d) 1 (e) 0.5",
             "answer": "(c) 0.25",
@@ -3538,7 +3538,7 @@
             "option_num": 5
         },
         {
-            "text": "DAO is X times larger in area than DBC. Which of the following options is a reasonable estimate?",
+            "text": "DAO is X times larger in area than DBC. Which of the following options is a reasonable estimate for X?",
             "image_path": "Only_data/Synthetic Mathematical Dataset/Area/100_Area.png",
             "option": "(a) 0.25 (b) 4 (c) 1 (d) 2 (e) 0.5",
             "answer": "(e) 0.5",
@@ -3549,7 +3549,7 @@
             "option_num": 5
         },
         {
-            "text": "BAE is X times larger in area than CFD. Which of the following options is a reasonable estimate?",
+            "text": "BAE is X times larger in area than CFD. Which of the following options is a reasonable estimate for X?",
             "image_path": "Only_data/Synthetic Mathematical Dataset/Area/86_Area.png",
             "option": "(a) 4 (b) 0.5 (c) 1 (d) 2 (e) 0.25",
             "answer": "(c) 1",
@@ -3560,7 +3560,7 @@
             "option_num": 5
         },
         {
-            "text": "ABC is X times larger in area than ABOC. Which of the following options is a reasonable estimate?",
+            "text": "ABC is X times larger in area than ABOC. Which of the following options is a reasonable estimate for X?",
             "image_path": "Only_data/Synthetic Mathematical Dataset/Area/67_Area.png",
             "option": "(a) 2 (b) 4 (c) 0.25 (d) 1 (e) 0.5",
             "answer": "(a) 2",
@@ -3571,7 +3571,7 @@
             "option_num": 5
         },
         {
-            "text": "AMCD is X times larger in area than ABM. Which of the following options is a reasonable estimate?",
+            "text": "AMCD is X times larger in area than ABM. Which of the following options is a reasonable estimate for X?",
             "image_path": "Only_data/Synthetic Mathematical Dataset/Area/119_Area.png",
             "option": "(a) 1 (b) 4 (c) 0.25 (d) 0.5 (e) 2",
             "answer": "(b) 4",
@@ -3582,7 +3582,7 @@
             "option_num": 5
         },
         {
-            "text": "BED is X times larger in area than DFC. Which of the following options is a reasonable estimate?",
+            "text": "BED is X times larger in area than DFC. Which of the following options is a reasonable estimate for X?",
             "image_path": "Only_data/Synthetic Mathematical Dataset/Area/48_Area.png",
             "option": "(a) 2 (b) 1 (c) 0.5 (d) 0.25 (e) 4",
             "answer": "(b) 1",
@@ -3593,7 +3593,7 @@
             "option_num": 5
         },
         {
-            "text": "ADB is X times larger in area than ABC. Which of the following options is a reasonable estimate?",
+            "text": "ADB is X times larger in area than ABC. Which of the following options is a reasonable estimate for X?",
             "image_path": "Only_data/Synthetic Mathematical Dataset/Area/143_Area.png",
             "option": "(a) 0.5 (b) 0.25 (c) 1 (d) 4 (e) 2",
             "answer": "(c) 1",
@@ -3604,7 +3604,7 @@
             "option_num": 5
         },
         {
-            "text": "DABC is X times larger in area than NPMC. Which of the following options is a reasonable estimate?",
+            "text": "DABC is X times larger in area than NPMC. Which of the following options is a reasonable estimate for X?",
             "image_path": "Only_data/Synthetic Mathematical Dataset/Area/123_Area.png",
             "option": "(a) 4 (b) 1 (c) 0.5 (d) 0.25 (e) 2",
             "answer": "(a) 4",
@@ -3615,7 +3615,7 @@
             "option_num": 5
         },
         {
-            "text": "ADE is X times larger in area than ABE. Which of the following options is a reasonable estimate?",
+            "text": "ADE is X times larger in area than ABE. Which of the following options is a reasonable estimate for X?",
             "image_path": "Only_data/Synthetic Mathematical Dataset/Area/58_Area.png",
             "option": "(a) 2 (b) 0.25 (c) 0.5 (d) 1 (e) 4",
             "answer": "(c) 0.5",
