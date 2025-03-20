@@ -8060,7 +8060,7 @@
             "text": "Which of the following options is a reasonable range of estimates for the number of trees in the figure?",
             "image_path": "Only_data/Real-World Dataset/Quantity/20_Quantity.png",
             "option": "(a) [1, 10) (b) [10, 30) (c) More than 30",
-            "answer": "(a) [1, 10)",
+            "answer": "(b) [10, 30)",
             "task_class": "range estimation",
             "Major_categories": "Quantity",
             "Minor_category": "tree_count",
