@@ -6,7 +6,7 @@ from transformers import AutoTokenizer, AutoModel
 import torch
 
 # You can use other models to extract the answer,we use InetrVL2.5_38B
-model_path = models_dir + "Internvl2_5-8B"
+model_path = models_dir + "Internvl2_5-38B"
 device_map = "balanced"
 model = AutoModel.from_pretrained(
     model_path,
