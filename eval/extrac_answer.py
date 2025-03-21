@@ -98,7 +98,7 @@ for file_name in model_list:
         model_prediction = run_model_get(prompt)
         
         results.append({image_id:model_prediction})
-        print(results)
+        # print(results)
 
     with open(save_json_path, 'w') as f:
         json.dump(results, f, indent=4)
