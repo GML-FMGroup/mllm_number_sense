@@ -45,7 +45,7 @@ Please refer to our [eval](eval) folder for more details.
 | Qwen2-VL-72B        |             54.20             |         46.56          |
 | LLaVA-v1.6-34B      |             44.31             |         50.55          |
 | Gemini 1.5 Pro      |             44.02             |         48.67          |
-| InternVL2-40B       |             45.5              |         45.12          |
+| InternVL2-40B       |             45.50             |         45.12          |
 | Qwen2.5-VL-7B       |             46.19             |         41.02          |
 | Llama-VL-3_2-11B    |             43.92             |         43.24          |
 | Qwen2.5-VL-3B       |             42.43             |         42.57          |
@@ -58,11 +58,10 @@ Please refer to our [eval](eval) folder for more details.
 | InternVL2-8B        |             39.56             |         39.58          |
 | R1-Onevision-7B     |             38.87             |         38.25          |
 | LLaVA-v1.5-13B      | 32.15 | 40.02 |
-| LLaVA-v1.6-34B      | 32.15 | 40.02 |
 | Janus-Pro-7B        | 37.69 | 34.26 |
 | Phi-3.5-vision      | 32.34 | 37.25 |
 | Math-LLaVA-13B      | 35.81 | 33.15 |
-| Gemini 1.5 Flash    | 33.33 | 33.7 |
+| Gemini 1.5 Flash    | 33.33 | 33.70 |
 | LLaVA-v1.5-7B       | 29.38 | 28.49 |
 | Qwen2-VL-2B | 31.85 | 24.94 |
 | 👀 **Random** | 24.76 | 25.54 |
