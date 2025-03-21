@@ -1,5 +1,5 @@
 import os
-from utils import judge, get_dict
+from utils import judge, get_accuracy_example
 import argparse
 import os
 from configs import index, model_list
@@ -19,9 +19,9 @@ index = 0
 save_results_dir = ["save_synthetic_prediction","save_real_prediction"]
 #the json data of VisNumbench
 if index == 0:
-    json_file = "/data/wengtengjin/wtj_works/Only_data/Synthetic Mathematical Dataset/Synthetic.json"
+    json_file = "../datasets/Synthetic Mathematical Dataset/Synthetic.json"
 else:
-    json_file = "/data/wengtengjin/wtj_works/Only_data/Real-World Dataset/Real.json"
+    json_file = "../datasets/Real-World Dataset/Real.json"
 with open(json_file, 'r') as f:
     correct_answer_data = json.load(f)  # Parse the JSON data,
 file_dir = os.getcwd() + "/"+ save_results_dir[index]
@@ -47,10 +47,10 @@ for file_name in model_list:
             major_dict[major_cls] = {'total': 0, 'correct': 0}
             
         major_dict[major_cls]['total'] += 1
-        correct_answer = get_correct_answer(image_id, correct_answer_data['data'])
+        correct_answer = get_correct_answer(image_id, correct_answer_data)
         if judge(model_prediction, correct_answer):
             major_dict[major_cls]['correct'] += 1
-    accuracies_percentage = get_dict(major_dict, file_name)
+    accuracies_percentage = get_accuracy_example(major_dict, file_name)
     accuracies_percentage_list.append(accuracies_percentage)
 
 # writing excel

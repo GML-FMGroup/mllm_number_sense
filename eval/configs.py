@@ -17,7 +17,7 @@ else:
 
 if not os.path.exists(Result_root):
     os.mkdir(Result_root)
-    
+
 model_list = [
     "Random.json",
     "phi3_5.json",

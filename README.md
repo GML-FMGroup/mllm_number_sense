@@ -28,7 +28,7 @@ data = load_dataset(dataset_name)
 `task_class` is one of the tasks: `['Range Estimation', 'Value Comparison', 'Value Estimation', 'Multiplicative Estimation']`.
 
 ## Evaluation
-Please refer to our [eval](eval)folder for more details.
+Please refer to our [eval](eval) folder for more details.
 
 <img src="assets/radar.jpg"  />
 
@@ -73,6 +73,7 @@ Please refer to our [eval](eval)folder for more details.
 VisNumBench utilizes image data from multiple sources.  We have made every effort to ensure that the images included in this work comply with applicable copyright laws and are properly credited. However, if you are the copyright holder of any image included in our work and believe that its use conflicts with your licensing agreement, please [contact](#contact) us directly. We are committed to promptly addressing any legitimate concerns.
 
 ## Contact
+
 - Tengjin Weng: wtjdsb@gmail.com
 - Wenhao Jiang:cswhjiang@gmail.com
 

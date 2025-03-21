@@ -6,7 +6,7 @@ from transformers import AutoTokenizer, AutoModel
 import torch
 
 # You can use other models to extract the answer,we use InetrVL2.5_38B
-model_path = models_dir + "Internvl2_5-38B"
+model_path = models_dir + "Internvl2_5-8B"
 device_map = "balanced"
 model = AutoModel.from_pretrained(
     model_path,
@@ -55,7 +55,7 @@ def build_prompt(question, options, prediction):
 def get_text_option(image_id, json_data):
     for item in json_data:
         if item["id"] == image_id:
-            text = item["text"]
+            text = item["question"]
             option = item["option"]
             break
     return text, option
@@ -63,11 +63,12 @@ def get_text_option(image_id, json_data):
 #control the Synthetic Scenario or Real-world Scenario
 index = 0
 save_results_dir = ["save_synthetic_output","save_real_output"]
+
 #the json data of VisNumbench
 if index == 0:
-    json_file = "/data/wengtengjin/wtj_works/Only_data/Synthetic Mathematical Dataset/Synthetic.json"
+    json_file = "../datasets/Synthetic Mathematical Dataset/Synthetic.json"
 else:
-    json_file = "/data/wengtengjin/wtj_works/Only_data/Real-World Dataset/Real.json"
+    json_file = "../datasets/Real-World Dataset/Real.json"
 
 with open(json_file, 'r') as f:
     question_option_data = json.load(f)  # Parse the JSON data,annotations[text,image_path,option,answer]
@@ -92,7 +93,7 @@ for file_name in model_list:
     for data in json_data:
         image_id = data["image_id"]
         model_answer_n = data["predict_answer"]
-        question, options = get_text_option(image_id, question_option_data['data'])
+        question, options = get_text_option(image_id, question_option_data)
         prompt = build_prompt(question, options, model_answer_n)
         model_prediction = run_model_get(prompt)
         
