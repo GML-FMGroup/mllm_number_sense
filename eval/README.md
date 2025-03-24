@@ -4,7 +4,7 @@ To execute our evaluation script, please ensure that the structure of your model
 
 ## Data Loading, Model Inference, and Output Saving
 
-We provide one example file `test_benchmark.py` to test the benchmark for your reference. 
+We provide example codes to test the benchmark for your reference. 
 Basically, it
 - loads the dataset
 - conducts model inference(*InternVL.py, Janus.py, Llama.py, Llava.py, llava-onevision.py, phi3.5.py, Qwen2.py, and Qwen2_5.py*))
