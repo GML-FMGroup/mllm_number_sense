@@ -1,6 +1,6 @@
 # VisNumBench: Evaluating Number Sense of Multimodal Large Language Models
 
-This repo contains evaluation code for the paper "[VisNumBench: Evaluating Number Sense of Multimodal Large Language Models](https://arxiv.org/abs/2404.12390.pdf)"
+This repo contains evaluation code for the paper "[VisNumBench: Evaluating Number Sense of Multimodal Large Language Models](https://arxiv.org/pdf/2503.14939v1)"
 
 ​																[**🌐 Homepage**](https://wwwtttjjj.github.io/VisNumBench/) | [**🤗 Dataset**](https://huggingface.co/datasets/GML-FMGroup/VisNumBench) | [**📑 Paper**](https://arxiv.org/pdf/2503.14939v1) | [**📖 arXiv**](https://arxiv.org/abs/2503.14939v1)
 
