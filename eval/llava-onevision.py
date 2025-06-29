@@ -54,7 +54,7 @@ def runllava_one(text, image_path):
 
     inputs = processor(images=image, text=prompt, return_tensors='pt').to(0, torch.float16)
 
-    output = model.generate(**inputs, max_new_tokens=200, do_sample=False)
+    output = model.generate(**inputs, max_new_tokens=1024, do_sample=False)
     return processor.decode(output[0][2:], skip_special_tokens=True).split("assistant")[-1]
 
 

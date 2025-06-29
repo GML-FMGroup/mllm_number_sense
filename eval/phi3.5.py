@@ -1,87 +1,108 @@
 import os
-from utils import run_model
-from configs import Result_root, root_dir,models_dir
 import argparse
+from PIL import Image
+from transformers import AutoModelForCausalLM, AutoProcessor
 
-from PIL import Image 
-import requests 
-from transformers import AutoModelForCausalLM 
-from transformers import AutoProcessor 
-"""
-/data/wengtengjin/models/phi3_5
-"""
-parser = argparse.ArgumentParser(description="Script for processing data")
+from utils import run_model
+from configs import Result_root, root_dir, models_dir
 
-# Add an argument for Data_number
+"""
+Model example path:
+    /data/wengtengjin/models/phi3_5
+"""
+
+# ------------------- Argument Parsing -------------------
+parser = argparse.ArgumentParser(description="Run phi3_5 model on dataset")
+
 parser.add_argument(
-    "--model_name", 
-    type=str, 
-    default="phi3_5", 
-    help="phi3_5"
+    "--model_name",
+    type=str,
+    default="phi3_5",
+    help="Name of the model, e.g., phi3_5"
 )
 
-# Parse the arguments
 args = parser.parse_args()
-model_path = models_dir + args.model_name
-print(f"{args.model_name} laoded")
-file_path = os.path.join(Result_root, model_path.split("/")[-1]+".json")
 
+# ------------------- Set Model Path -------------------
+model_path = os.path.join(models_dir, args.model_name)
+result_file_path = os.path.join(Result_root, f"{args.model_name}.json")
 
+print(f"Loading model from: {model_path}")
 
-# Note: set _attn_implementation='eager' if you don't have flash_attn installed
+# ------------------- Load Model & Processor -------------------
+# Use flash attention if available; otherwise, switch to 'eager'
 model = AutoModelForCausalLM.from_pretrained(
-  model_path, 
-  device_map="cuda", 
-  trust_remote_code=True, 
-  torch_dtype="auto", 
-  _attn_implementation='flash_attention_2'    
+    model_path,
+    device_map="cuda",
+    trust_remote_code=True,
+    torch_dtype="auto",
+    _attn_implementation='flash_attention_2'
 )
 
-# for best performance, use num_crops=4 for multi-frame, num_crops=16 for single-frame.
-processor = AutoProcessor.from_pretrained(model_path, 
-  trust_remote_code=True, 
-  num_crops=4
-) 
+# Set number of crops; 4 for multi-frame, 16 for single-frame recommended
+processor = AutoProcessor.from_pretrained(
+    model_path,
+    trust_remote_code=True,
+    num_crops=4
+)
 
+print(f"Model {args.model_name} loaded successfully.")
 
+# ------------------- Inference Function -------------------
+def run_phi3_5(prompt_text, image_path):
+    """
+    Run phi3_5 model on a given image and prompt.
+    """
 
-def runPhi3_5(text, image_path):
-    images = []
-    placeholder = ""
+    # Load image
+    images = [Image.open(image_path)]
 
-    # Note: if OOM, you might consider reduce number of frames in this example.
-    images.append(Image.open(image_path))
-    placeholder += f"<|image_{1}|>\n"
+    # Create placeholder for images in prompt format
+    placeholder = "<|image_1|>\n"
 
     messages = [
-        {"role": "user", "content": placeholder + text},
+        {
+            "role": "user",
+            "content": placeholder + prompt_text
+        }
     ]
 
+    # Construct chat prompt
     prompt = processor.tokenizer.apply_chat_template(
-    messages, 
-    tokenize=False, 
-    add_generation_prompt=True
+        messages,
+        tokenize=False,
+        add_generation_prompt=True
     )
 
-    inputs = processor(prompt, images, return_tensors="pt").to("cuda:0") 
+    # Prepare inputs
+    inputs = processor(prompt, images, return_tensors="pt").to("cuda:0")
 
-    generation_args = { 
-        "max_new_tokens": 1000, 
-        "temperature": 0.0, 
-        "do_sample": False, 
-    } 
+    # Generation settings
+    generation_args = {
+        "max_new_tokens": 512,
+        "temperature": 0.0,
+        "do_sample": False,
+    }
 
-    generate_ids = model.generate(**inputs, 
-    eos_token_id=processor.tokenizer.eos_token_id, 
-    **generation_args
+    # Generate output
+    generated_ids = model.generate(
+        **inputs,
+        eos_token_id=processor.tokenizer.eos_token_id,
+        **generation_args
     )
 
-    # remove input tokens 
-    generate_ids = generate_ids[:, inputs['input_ids'].shape[1]:]
-    response = processor.batch_decode(generate_ids, 
-    skip_special_tokens=True, 
-    clean_up_tokenization_spaces=False)[0] 
+    # Remove prompt tokens from output
+    generated_ids_trimmed = generated_ids[:, inputs['input_ids'].shape[1]:]
+
+    # Decode prediction
+    response = processor.batch_decode(
+        generated_ids_trimmed,
+        skip_special_tokens=True,
+        clean_up_tokenization_spaces=False
+    )[0]
+
     return response
 
+# ------------------- Execute Script -------------------
 if __name__ == "__main__":
-    run_model(root_dir, file_path, runPhi3_5)
+    run_model(root_dir, result_file_path, run_phi3_5)

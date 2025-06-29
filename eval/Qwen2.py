@@ -1,78 +1,86 @@
+import os
+import argparse
 from transformers import Qwen2VLForConditionalGeneration, AutoProcessor
 from qwen_vl_utils import process_vision_info
-import os
 from utils import run_model
-from configs import Result_root, root_dir,models_dir
-import argparse
+from configs import Result_root, root_dir, models_dir
+
 """
-/data/wengtengjin/models/Qwen2-VL-7B-Instruct
-/data/wengtengjin/models/Qwen2-VL-2B-Instruct
-/data/wengtengjin/models/Qwen2-VL-72B-Instruct
+Available model paths:
+    /data/wengtengjin/models/Qwen2-VL-2B-Instruct
+    /data/wengtengjin/models/Qwen2-VL-7B-Instruct
+    /data/wengtengjin/models/Qwen2-VL-72B-Instruct
 """
 
-parser = argparse.ArgumentParser(description="Script for processing data")
+# ------------------- Argument Parsing -------------------
+parser = argparse.ArgumentParser(description="Run Qwen2-VL model on dataset")
 
-# Add an argument for Data_number
 parser.add_argument(
-    "--model_name", 
-    type=str, 
-    default="Qwen2-VL-2B-Instruct", 
-    help="Qwen2-VL-72B-Instruct;Qwen2-VL-7B-Instruct;Qwen2-VL-2B-Instruct"
+    "--model_name",
+    type=str,
+    default="Qwen2-VL-2B-Instruct",
+    help="Specify the model name: Qwen2-VL-2B-Instruct, Qwen2-VL-7B-Instruct, Qwen2-VL-72B-Instruct, etc."
 )
 
-# Parse the arguments
 args = parser.parse_args()
-if "Qwen2.5" not in args.model_name:
-    model_path = models_dir + args.model_name
-else:
-    model_path = "Qwen/" + args.model_name
 
+model_path = os.path.join(models_dir, args.model_name)
 
-print(f"{args.model_name} laoded")
-file_path = os.path.join(Result_root, model_path.split("/")[-1]+".json")
+# Output result file path
+result_file_path = os.path.join(Result_root, f"{args.model_name}.json")
 
+print(f"Loading model: {args.model_name} from {model_path}")
+
+# ------------------- Load Model & Processor -------------------
 model = Qwen2VLForConditionalGeneration.from_pretrained(
     model_path, torch_dtype="auto", device_map="auto"
 )
 processor = AutoProcessor.from_pretrained(model_path)
-print(f"{args.model_name} laoded")
 
-def runQwen(text, image_path):
+print(f"Model {args.model_name} loaded successfully.")
+
+# ------------------- Model Inference Wrapper -------------------
+def run_qwen(prompt_text, image_path):
+    """
+    Given a prompt and an image path, generate a model response.
+    """
     messages = [
         {
             "role": "user",
             "content": [
-                {
-                    "type": "image",
-                    "image": image_path,
-                },
-                {"type": "text", "text": text},
+                {"type": "image", "image": image_path},
+                {"type": "text", "text": prompt_text}
             ],
         }
     ]
-    # Preparation for inference
-    text = processor.apply_chat_template(
+
+    # Prepare input prompt and media
+    prompt = processor.apply_chat_template(
         messages, tokenize=False, add_generation_prompt=True
     )
     image_inputs, video_inputs = process_vision_info(messages)
+
+    # Tokenize all inputs
     inputs = processor(
-        text=[text],
+        text=[prompt],
         images=image_inputs,
         videos=video_inputs,
         padding=True,
         return_tensors="pt",
-    )
-    inputs = inputs.to("cuda")
+    ).to("cuda")
 
-    # Inference: Generation of the output
-    generated_ids = model.generate(**inputs, max_new_tokens=500)
-    generated_ids_trimmed = [
-        out_ids[len(in_ids) :] for in_ids, out_ids in zip(inputs.input_ids, generated_ids)
+    # Generate prediction
+    generated_ids = model.generate(**inputs, max_new_tokens=512)
+    trimmed_ids = [
+        output[len(input_ids):] for input_ids, output in zip(inputs.input_ids, generated_ids)
     ]
-    output_text = processor.batch_decode(
-        generated_ids_trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False
-    )
-    return output_text[0]
 
+    decoded_output = processor.batch_decode(
+        trimmed_ids, skip_special_tokens=True, clean_up_tokenization_spaces=False
+    )
+
+    return decoded_output[0]
+
+# ------------------- Run -------------------
 if __name__ == "__main__":
-    run_model(root_dir, file_path, runQwen)
+    run_model(root_dir, result_file_path, run_qwen)

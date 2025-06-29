@@ -1,23 +1,38 @@
 import os
 
+# Directory to save results for real-world dataset
 Real_data_root = "save_real_output/"
+
+# Directory to save results for synthetic dataset
 Synthetic_root = "save_synthetic_output/"
 
+# Base project directory
 root_dir = "../"
-models_dir = "/data/wengtengjin/models/"
-#control the Synthetic Scenario or Real-world Scenario
-index = 0
-file_dir = ["Synthetic Mathematical Dataset","Real-World Dataset"]
-json_path_dir = "../Only_data/" + file_dir[index]
 
+# Path to models directory (likely contains model weights/configs)
+models_dir = "/data/wengtengjin/models/"
+
+# Index to control which scenario is used: 
+# 0 = Synthetic Mathematical Dataset, 1 = Real-World Dataset
+index = 0
+
+# Dataset folder names
+file_dir = ["Synthetic Mathematical Dataset", "Real-World Dataset"]
+
+# Path to JSON data files (inputs)
+json_path_dir = "../datasets/" + file_dir[index]
+
+# Choose output directory based on scenario index
 if index == 0:
     Result_root = Synthetic_root
 else:
     Result_root = Real_data_root
 
+# Create result directory if it doesn't exist
 if not os.path.exists(Result_root):
     os.mkdir(Result_root)
 
+# List of model result filenames to process (in JSON format)
 model_list = [
     "Random.json",
     "phi3_5.json",
@@ -51,3 +66,6 @@ model_list = [
     "Qwen2.5-VL-7B-Instruct.json",
     "R1-Onevision-7B.json"
 ]
+
+# The script above prepares environment paths and the target model list.
+# Additional code can be added to load and process each model result from these JSON files.

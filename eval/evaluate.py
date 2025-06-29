@@ -1,21 +1,14 @@
 import os
-from utils import judge, get_accuracy_example
+from utils import judge, get_accuracy_example,get_correct_answer
 import argparse
 import os
 from configs import index, model_list
 import json
 
-def get_correct_answer(image_id, json_data):
-    for item in json_data:
-        if item["id"] == image_id:
-            correct_answer = item["answer"]
-            break
-    return correct_answer
-
 parser = argparse.ArgumentParser(description="Script for processing data")
 
 #control the Synthetic Scenario or Real-world Scenario
-index = 0
+index = 1
 save_results_dir = ["save_synthetic_prediction","save_real_prediction"]
 #the json data of VisNumbench
 if index == 0:
