@@ -41,7 +41,7 @@ Please refer to our [eval](eval) folder for more details.
 ## 🏆 Leaderboard
 
 | Model                      | VisNumBench-Synthetic (1,011) | VisNumBench-Real (902) | VisNumBench |
-|----------------------------|:-----------:|:------------:|--------------|
+|----------------------------|:-----------:|:------------:|:--------------:|
 | 🏅**Human**          |             95.33             |         97.33          |         96.27    |
 | 🥈Gemini 2.0 Flash   |             57.57             |       **56.54**        |   **57.08**  |
 | 🥉InternVL2.5-78B    |             56.18             |       **56.54**        |       56.35  |
