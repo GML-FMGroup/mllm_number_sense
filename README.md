@@ -86,10 +86,10 @@ VisNumBench utilizes image data from multiple sources.  We have made every effor
 
 **BibTeX:**
 ```bibtex
-@article{weng2025visnumbench,
-title={VisNumBench: Evaluating Number Sense of Multimodal Large Language Models},
-author={Tengjin Weng and Wenhao Jiang and Jingyi Wang and Zhong Ming},
-journal={arXiv preprint arXiv:2503.14939},
-year={2025}
-}
+      @inproceedings{weng2025visnumbench,
+        title={VisNumBench: Evaluating Number Sense of Multimodal Large Language Models},
+        author={Tengjin Weng and Wenhao Jiang and Jingyi Wang and Zhong Ming},
+        booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+        year={2025}
+      }
 ```
