@@ -12,6 +12,16 @@ def build_prompt(question, options):
     """
     return prompt
 
+# Construct thinking prompt string for language model
+def build_think_prompt(question, options):
+    prompt = f"""
+        Question: {question}
+        Options: {options}
+        Please think and answer the question based on
+        the most likely options..
+    """
+    return prompt
+
 # Recursively find all JSON files under the specified directory
 def get_json_path():
     json_files = [str(file) for file in Path(json_path_dir).rglob('*.json')]
